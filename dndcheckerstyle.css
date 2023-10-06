@@ -2,9 +2,21 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #fbf6e9;
+}
+
 h1 {
     font-family: Georgia;
     font-size: 50px;
+}
+
+h2 {
+    font-family: Cambria;
+}
+
+p {
+    font-family: Times;
 }
 
 #instructions {
