@@ -134,7 +134,7 @@ tr {
 }
 
 .content {
-    padding: 0 18px;
+    margin: auto;
     display: none;
     overflow: hidden;
     background-color: #f1f1f1;
