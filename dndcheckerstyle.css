@@ -25,6 +25,14 @@ p {
     font-family: Times;
 }
 
+table, td, tr {
+    border: 1px solid;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+}
+
 .img-responsive {
     max-width: 100%;
     max-height: 100%;
