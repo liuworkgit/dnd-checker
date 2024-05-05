@@ -4,17 +4,22 @@
 <head>
     <title>DnD Character Creation Checker</title>
     <meta charset="UTF-8">
-    <meta name="description" content="A step-by-step guide to creating a DnD character, complete with an interactive checklist.">
+    <meta name="description"
+        content="A step-by-step guide to creating a DnD character, complete with an interactive checklist.">
     <meta name="author" content="Jensen Liu">
     <link href="/Users/sen/Documents/html/dnd-checker/actual/dndcheckerstyle.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
     <div id="instructions">
+        <noscript>Please enable Javascript for full functionality.</noscript>
+
         <h1>DnD Character Creation Checklist</h1>
+
+
         <h2>Section 1</h2>
 
-        <img src="/Users/sen/Documents/html/dnd-checker/actual/dndchecksection1.png">
+        <img src="/Users/sen/Documents/html/dnd-checker/actual/dndchecksection1.png" class="img-responsive">
 
         <h3>Choose Your Character's Name</h3>
         <p>Skip this step if desired, since it’s simple.</p>
@@ -23,15 +28,16 @@
         <p>In the story, your character’s class is their profession. Game mechanic wise, it determines how
             your character can be played, granting you access to specific skills, proficiencies and talents.</p>
 
-        <!--needs alt text-->
-        <p>There are many classes to choose from, with <a href="https://www.dndbeyond.com/classes" target="_blank">this list of
+        <p>There are many classes to choose from, with <a href="https://www.dndbeyond.com/classes" target="_blank">this
+                list of
                 classes</a> by DnD Beyond a good place to start.</p>
 
         <h3>Pick a Race</h3>
         <p>In the story, your character’s race is what species they are. Similar to class, this determines traits and
             skills your character naturally has.</p>
 
-        <p>Just like classes, there are many races to pick; DnD Beyond has <a href="https://www.dndbeyond.com/races" target="_blank">a
+        <p>Just like classes, there are many races to pick; DnD Beyond has <a href="https://www.dndbeyond.com/races"
+                target="_blank">a
                 list of races</a> you can pick from.</p>
 
         <h3>Pick a Background</h3>
@@ -39,7 +45,8 @@
             gives your character access to additional skills and proficiencies. A character doesn’t get more traits from
             their background, while they would from their class.</p>
 
-        <p>Again, DnD Beyond provides <a href="https://www.dndbeyond.com/backgrounds" target="_blank">a list of backgrounds</a> to
+        <p>Again, DnD Beyond provides <a href="https://www.dndbeyond.com/backgrounds" target="_blank">a list of
+                backgrounds</a> to
             choose from.</p>
 
         <h3>Alignment</h3>
@@ -73,7 +80,7 @@
 
         <h2>Section 2</h2>
 
-        <img src="/Users/sen/Documents/html/dnd-checker/actual/dndchecksection2.png">
+        <img src="/Users/sen/Documents/html/dnd-checker/actual/dndchecksection2.png" class="img-responsive">
 
         <h3>Ability Scores</h3>
         <p>These determine a character’s aptitude for certain physical and mental tasks. There are six in total:</p>
@@ -121,25 +128,30 @@
                 <td>+5</td>
             </tr>
         </table>
+
         <h3>Inspiration</h3>
         <p>Inspiration points are rewarded to the player by the game master for playing one’s character true to their
             personality. Characters start out with no inspiration points, so leave this blank.</p>
+
         <h3>Proficiency Bonus</h3>
         <p>This is a number that is added to dice rolls for tasks that a character is proficient in, or good at.
             Proficiencies will be covered later.</p>
         <p>This number is determined by the level of your character, and increases as you level up. At level 1, your
             proficiency bonus is +2.</p>
+
         <h3>Saving Throws</h3>
         <p>These are rolls made when your character needs to resist something, such as an attack or a spell. When the
             situation arises, you roll your dice and add your saving throw modifier to it.</p>
         <p>The modifier is determined by your ability score’s modifier. Each class has proficiency in at least two
             ability scores, meaning you can add your proficiency bonus to the ones you’re proficient in. Find the
             related modifier – calculate if you’re proficient – and write it in the boxes.</p>
+
         <h3>Skills</h3>
         <p>These are the specific areas your character is good at. Each skill is tied to an ability score. Your
             character’s background and class tell you which skills you’re proficient in, meaning you can add your
             proficiency bonus to the modifier.</p>
         <p>Find the related modifier – calculate if you’re proficient – and write it in the blank spaces.</p>
+
         <h3>Passive Perception</h3>
         <p>unlike the perception skill, passive perception relates to whether your character can notice things without
             deliberately paying attention.</p>
@@ -150,7 +162,7 @@
         <p>The middlemost box at the top contains your character’s armour class, initiative, speed, hit points, hit
             dice, and death saves.</p>
 
-        <img src="/Users/sen/Documents/html/dnd-checker/actual/dndchecksection3.png">
+        <img src="/Users/sen/Documents/html/dnd-checker/actual/dndchecksection3.png" class="img-responsive">
 
         <h3>Armour Class</h3>
         <p>the armour class is the score enemies must beat in order to deal damage to your character. For example, if
@@ -164,58 +176,104 @@
             your dexterity modifier. If your character is proficient in the armour they wear, they get to add their
             proficiency bonus to their AC. If your character isn’t, however, you will have disadvantage on ability
             checks, attack rolls involving dexterity or strength, saving throws, and will be unable to cast spells.</p>
+
         <h3>Initiative</h3>
         <p>This is a modifier you add to the dice roll that determines when you go in battle. It is equal to your
             dexterity modifier.</p>
+
         <h3>Speed</h3>
         <p>this determines how much your character can move in a round of combat. This is race-specific, but can be
             improved by other factors such as class. Check your race to see your character’s speed.</p>
+
         <h3>Hit Points</h3>
         <p>these determine your character’s health. At level 1, it can be calculated by adding your constitution
             modifier to a certain number. The dice you use to calculate how much HP you get in later levels are
             determined by your class.</p>
         <p>Temporary hit points are hit points that don’t last forever, and can be conferred for a time by certain
             effects.</p>
+
         <h3>Hit Dice</h3>
         <p>the dice you use to calculate how much health is regained from healing. It increases with level. At level
             one, you get 1 hit dice, at level two, you get two, so on and so forth.</p>
+
         <h3>Death Saves</h3>
         <p>when your character has been knocked unconscious at 0 HP, each time your turn comes around you need to roll a
             d20 and add any modifiers or bonuses to it. You must beat a 10 for a success, or you get a fail. Three fails
             results in permanent death, while three successes means your character becomes stable at 0 HP again. This is
             only really relevant in battle or dangerous situations, so leave this blank.</p>
 
+
         <h2>Section 4</h2>
         <p>The last boxes contain information on attacks and spellcasting, other proficiencies and languages, equipment,
             and features and traits.</p>
 
-        <img src="/Users/sen/Documents/html/dnd-checker/actual/dndchecksection4.png">
+        <img src="/Users/sen/Documents/html/dnd-checker/actual/dndchecksection4.png" class="img-responsive">
 
         <h3>Attacks and Spellcasting</h3>
         <p>here is where you’d list the attacks you could make, which is reliant on what weapons your character has.</p>
+
         <h3>Other Proficiencies and Languages</h3>
         <p>This is where other proficiencies listed by your class can go. As well, each race and some classes allow your
             character rto speak certain languages.</p>
+
         <h3>Equipment</h3>
         <p>all characters start out with default equipment as dependent on their class. This can also be used to list
             certain items you pick up along your character’s journey.</p>
+
         <h3>Features and Traits</h3>
         <p>any abilities granted by your race and class go here.</p>
     </div>
+
     <div id="checklist">
-        <div id="checkdiv" class="header">
-            <h2>Checklist</h2>
+        <div class="header">
+            <h2 style="color: white;">Checklist</h2>
         </div>
-        <ul id="checkul">
-            <li>Class, Race and Background</li>
-            <li class="checked">Ability Scores and Saving Throws</li>
-            <li>Skills and Proficiencies</li>
-            <li>Armour class, Speed and Initiative</li>
-            <li>Weapons and Inventory</li>
-            <li>Name, Backstory and Personality</li>
-        </ul>
+        <button type="button" class="collapsible">Section 1</button>
+        <div class="content">
+            <ul class="checkul"> <!--checkul become class-->
+                <li>Name</li>
+                <li>Class</li>
+                <li>Race</li>
+                <li>Background</li>
+                <li>Alignment</li>
+                <li>Experience Points</li>
+            </ul>
+        </div>
+
+        <button type="button" class="collapsible">Section 2</button>
+        <div class="content">
+            <ul class="checkul">
+                <li>Ability Scores</li>
+                <li>Inspiration</li>
+                <li>Proficiency Bonus</li>
+                <li>Saving Throws</li>
+                <li>Skills</li>
+                <li>Passive Perception</li>
+            </ul>
+        </div>
+
+        <button type="button" class="collapsible">Section 3</button>
+        <div class="content">
+            <ul class="checkul">
+                <li>Armour Class</li>
+                <li>Initiative</li>
+                <li>Speed</li>
+                <li>Hit Points</li>
+                <li>Hit Dice</li>
+                <li>Death Saves</li>
+            </ul>
+        </div>
+
+        <button type="button" class="collapsible">Section 4</button>
+        <div class="content">
+            <ul class="checkul">
+                <li>Attacks and Spellcasting</li>
+                <li>Other Proficiencies and Languages</li>
+                <li>Equipment</li>
+                <li>Features and Traits</li>
+            </ul>
+        </div>
     </div>
-    <noscript>Please enable Javascript for full functionality.</noscript>
     <script src="/Users/sen/Documents/html/dnd-checker/actual/dndcheckerscript.js"></script>
 </body>
 

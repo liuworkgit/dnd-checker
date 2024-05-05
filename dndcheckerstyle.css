@@ -14,10 +14,25 @@ h1 {
 
 h2 {
     font-family: Cambria;
+    color: #a3270f;
+}
+
+h3 {
+    color: #a3270f;
 }
 
 p {
     font-family: Times;
+}
+
+table,
+td,
+tr {
+    border: 1px solid;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+    margin: auto;
 }
 
 .img-responsive {
@@ -37,13 +52,13 @@ p {
     max-width: 300px;
 }
 
-#checkul {
+.checkul {
     margin: 0;
     padding: 0;
     list-style-type: none;
 }
 
-#checkul li {
+.checkul li {
     cursor: pointer;
     position: relative;
     padding: 12px 8px 12px 40px;
@@ -57,21 +72,21 @@ p {
     user-select: none;
 }
 
-#checkul li:nth-child(odd) {
+.checkul li:nth-child(odd) {
     background: #f9f9f9;
 }
 
-#checkul li:hover {
+.checkul li:hover {
     background: #ddd;
 }
 
-#checkul li.checked {
+.checkul li.checked {
     background: #888;
     color: #fff;
     text-decoration: line-through;
 }
 
-#checkul li.checked::before {
+.checkul li.checked::before {
     content: '';
     position: absolute;
     border-color: #fff;
@@ -86,8 +101,7 @@ p {
 
 .header {
     background-color: #f44336;
-    padding: 10px 30px;
-    color: white;
+    padding: 2px 30px;
     text-align: center;
 }
 
@@ -95,4 +109,33 @@ p {
     content: '';
     display: table;
     clear: both;
+}
+
+.collapsible {
+    background: #888;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    text-align: center;
+    transition: 0.2s;
+    outline: none;
+    padding: 12px 8px 8px 12px;
+    width: 100%;
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.active,
+.collapsible:hover {
+    background: #444;
+}
+
+.content {
+    margin: auto;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
 }
